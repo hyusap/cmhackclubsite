@@ -24,6 +24,13 @@ export default function Index() {
       <Container>
         <Grid columns={[null, 2]}>
           <Box>
+            <Heading>First Meeting 8/20</Heading>
+            <p>
+              We are having our first meeting on Wednesday, 8/20, and cookies may be provided! Make sure to show up, we will be coding our first websites!
+
+            </p>
+          </Box>
+          <Box>
             <Heading>Join the Remind!</Heading>
             <p>
               The code is <strong>@cmhackclub</strong>. Make sure to join for
@@ -43,6 +50,11 @@ export default function Index() {
               Make sure to fill out this Google Form to sign up for the club!
               Deadline coming soon...
             </p>
+            <Button variant="outline">Coming Soon</Button>
+          </Box>
+          <Box>
+            <Heading>Become an Officer</Heading>
+            <p>We are looking for club officers! Multiple officer positions available. Deadline coming soon...</p>
             <Button variant="outline">Coming Soon</Button>
           </Box>
         </Grid>
